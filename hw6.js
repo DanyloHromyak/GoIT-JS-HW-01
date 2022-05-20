@@ -4,7 +4,7 @@ let total = 0;
 while (input !== null) {
   if (isNaN(input)) {
     alert("Було написано не число, спробуйте ще раз");
-  } else if (input !== NaN) {
+  } else {
     total += Number(input);
   }
   input = prompt("Введіть число");
